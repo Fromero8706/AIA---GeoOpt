@@ -1,3 +1,19 @@
+""" Inputs 
+
+Example -  
+x = Input 1
+y = input 2
+z = input 3
+
+Outputs
+
+a = Ouitput 1
+b = Output 2
+c = Output 3
+ 
+
+ """
+
 import Rhino.Geometry as rg
 
 grid = []
