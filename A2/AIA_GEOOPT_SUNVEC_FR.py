@@ -24,7 +24,7 @@ a = sphere
 #2. evaluate a point in the sphere using rg.Sphere.PointAt() at coordintes x and y
 #the point should only be on the upper half of the sphere (upper hemisphere)
 #the angles are in radians, so you might want to use math.pi for this
-#output the point to b
+#output the point to b -
 
 lon = (x/math.pi)*360 # NOT WORKING PROPERLY
 lat = y*math.pi
