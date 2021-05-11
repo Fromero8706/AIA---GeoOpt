@@ -1,5 +1,5 @@
 """
-IAAC - Master of Computation for Architecture & DEsign (MaCAD)
+IAAC - Master of Computation for Architecture & Design (MaCAD)
 Seminar: Digital tools for Algorithmic Geometrical Optimization
 Faculty: David Andres Leon, Dai Kandil 
 Student: Felipe Romero 
@@ -26,16 +26,12 @@ a = sphere
 #the angles are in radians, so you might want to use math.pi for this
 #output the point to b
 
-#radi1 = (math*pi(x))
 lon = (x/math.pi)*360 # NOT WORKING PROPERLY
 lat = y*math.pi
 point = rg.Sphere.PointAt(a, lon, lat)
 
-#rg.Sphere.PointAt()
-#rg.Sphere.PointAt
 b = point
 
-# C = 2phiR
 
 #create a vector from the origin  and reverse the vector
 #keep in mind that Reverse affects the original vector
