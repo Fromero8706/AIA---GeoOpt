@@ -41,7 +41,11 @@ vec1 = rg.Vector3d (b)
 #vec2 = rg.Vector3d (center)
 
 vecdir = rg.Line(center,b)
-vecneg = rg.Vector3d.Reverse(vec1)
+#vecneg = rg.Vector3d.Reverse(vec1)
+vecneg = rg.Vector3d.Negate(vec1)
+#vec2 = rg.Vector3d (vecneg)
+
+
 
 c = vecneg
 d = vecdir
